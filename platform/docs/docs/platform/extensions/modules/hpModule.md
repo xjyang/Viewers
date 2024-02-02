@@ -214,7 +214,7 @@ The skeleton of a hanging protocol is as follows:
 unique identifier for the protocol, this id can be used inside mode configuration
 to specify which protocol should be used for a specific mode. A mode can
 request a protocol by its id (which makes OHIF to apply the protocol without
-matching), or provides and array of ids which will
+matching), or provides an array of ids which will
 make the ProtocolEngine to choose the best matching protocol (based on
 protocolMatching rules, which is next section).
 
